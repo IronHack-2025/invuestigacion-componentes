@@ -182,7 +182,7 @@
 
         <v-bottom-sheet>
           <template v-slot:activator="{ props: activatorProps }">
-            <v-btn v-bind="activatorProps" text="Info"></v-btn>
+            <v-btn class="mt-4" v-bind="activatorProps" text="Info"></v-btn>
           </template>
 
           <v-card
@@ -214,3 +214,4 @@ const patients = ref([
 // Tab Seleccionada
 const currentView = ref("dashboard");
 </script>
+
