@@ -4,7 +4,7 @@ Instala y configura una biblioteca Vue de componentes.
 
 Luego, intenta realizar este diseño lo más fiel posible:
 
-![https://cdn.dribbble.com/userupload/7213448/file/original-c15dee5dc2033be7a7d538f8367cf374.png?resize=1024x768&vertical=center](imagen)
+![imagen](https://cdn.dribbble.com/userupload/7213448/file/original-c15dee5dc2033be7a7d538f8367cf374.png?resize=1024x768&vertical=center)
 
 ## Bilbiotecas a considerar
 
