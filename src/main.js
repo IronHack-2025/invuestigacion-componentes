@@ -1,37 +1,11 @@
-// src/main.js
+import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
+import vuetify from './plugins/vuetify'  
+const app = createApp(App)
 
-// Vuetify
-import 'vuetify/styles'
-import { createVuetify } from 'vuetify'
-import * as components from 'vuetify/components'
-import * as directives from 'vuetify/directives'
+app.use(router)
+app.use(vuetify) // 👈 activamos Vuetify
 
-// Iconos
-import '@mdi/font/css/materialdesignicons.css'
-
-const vuetify = createVuetify({
-  components,
-  directives,
-  theme: {
-    defaultTheme: 'myTheme',
-    themes: {
-      myTheme: {
-        dark: false, 
-        colors: {
-          background: '#FFFFFF', 
-          primary: '#0a4886ff',    
-          secondary: '#d619d6ff',  
-          accent: '#82B1FF',     
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FB8C00',
-          error: '#FF5252',
-        },
-      },
-    },
-  },
-})
-
-createApp(App).use(vuetify).mount('#app')
+app.mount('#app')
