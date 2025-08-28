@@ -79,17 +79,17 @@
         <v-row>
           <v-col cols="3">
             <v-card title="Info1" class="pa-4" color="secondary" dark>
-              <v-card-text>11</v-card-text>
+              <v-card-text>Lorem</v-card-text>
             </v-card>
           </v-col>
           <v-col cols="3">
-            <v-card title="Info1" class="pa-4" color="accent" dark>
-              <v-card-text>11</v-card-text>
+            <v-card title="Info2" class="pa-4" color="accent" dark>
+              <v-card-text>Lorem</v-card-text>
             </v-card>
           </v-col>
           <v-col cols="3">
-            <v-card title="Info1" class="pa-4" color="info" dark>
-              <v-card-text>11</v-card-text>
+            <v-card title="Info3" class="pa-4" color="info" dark>
+              <v-card-text>Lorem</v-card-text>
             </v-card>
           </v-col>
           <!-- 0 es domingo, 1 es lunes, ... -->
