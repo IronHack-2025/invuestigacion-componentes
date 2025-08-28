@@ -174,7 +174,7 @@
         <v-row justify="center">
           <v-col cols="12" md="6">
             <v-card class="pa-4">
-              <v-card-title>upload scanned report</v-card-title>
+              <v-card-title>Upload image report</v-card-title>
               <v-card-text>
                 <v-file-input
                   label="Select a photo"
@@ -202,7 +202,7 @@
         <v-row justify="center">
           <v-col cols="12" md="6">
             <v-card class="pa-4">
-              <v-card-title>Subir informe</v-card-title>
+              <v-card-title>Upload report</v-card-title>
               <v-card-text>
                 <v-file-input
                   label="Select a document"
