@@ -54,7 +54,13 @@
       <a-layout-content
         :style="{ margin: '24px 16px', padding: '24px', background: '#fff', minHeight: '280px' }"
       >
-  <Table />
+        <Table />
+        <div style="margin-top: 32px; width: 50vw;">
+          <a-calendar />
+        </div>
+        <div style="margin-top: 32px;">
+          <a-date-picker picker="week" />
+        </div>
       </a-layout-content>
     </a-layout>
   </a-layout>
